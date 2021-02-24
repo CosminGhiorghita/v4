@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['C++11', 'QML/JS', 'Qt', 'Python'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,19 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Cosmin, a software engineer based in Buchares, RO.</p>
 
-            <p>
+            {/* <p>
               I enjoy creating things that live on the internet, whether that be websites,
               applications, or anything in between. My goal is to always build products that provide
               pixel-perfect, performant experiences.
-            </p>
+            </p> */}
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I am currently pursuing a master's degree in Advanced Software Services at{' '}
+              <a href="https://upb.ro">Politehnica University of Bucharest</a>, and working as a
+              full-time engineer at <a href="https://harman.com">Harman INTERNATIONAL</a> where I
+              work on a wide variety of interesting and meaningful projects on a daily basis.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
